@@ -12,9 +12,11 @@ import org.springframework.context.annotation.PropertySource;
 @EnableAutoConfiguration
 @EnableEurekaServer
 @PropertySource("classpath:properties/db.properties")
+
 public class EurekaServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaServerApplication.class, args);
 	}
+
 }
